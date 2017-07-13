@@ -1,6 +1,9 @@
 /*
  * EasyAutocomplete - Configuration 
  */
+
+(function($) {
+
 var EasyAutocomplete = (function(scope){
 
 	scope.Configuration = function Configuration(options) {

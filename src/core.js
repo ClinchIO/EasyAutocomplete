@@ -2,6 +2,7 @@
  * EasyAutocomplete - jQuery plugin for autocompletion
  *
  */
+
 var EasyAutocomplete = (function(scope) {
 
 	
@@ -747,8 +748,6 @@ var EasyAutocomplete = (function(scope) {
 
 })(EasyAutocomplete || {});
 
-(function($) {
-
 	$.fn.easyAutocomplete = function(options) {
 
 		return this.each(function() {
@@ -810,4 +809,4 @@ var EasyAutocomplete = (function(scope) {
 		return -1;
 	};
 
-})(jQuery);
+})($ctj);

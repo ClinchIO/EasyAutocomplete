@@ -3,13 +3,16 @@
  * jQuery plugin for autocompletion
  * 
  * @author Łukasz Pawełczak (http://github.com/pawelczak)
- * @version 1.3.5
+ * @version 1.4.0
  * Copyright  License: 
  */
 
 /*
  * EasyAutocomplete - Configuration 
  */
+
+(function($) {
+
 var EasyAutocomplete = (function(scope){
 
 	scope.Configuration = function Configuration(options) {
@@ -880,6 +883,7 @@ var EasyAutocomplete = (function(scope){
  * EasyAutocomplete - jQuery plugin for autocompletion
  *
  */
+
 var EasyAutocomplete = (function(scope) {
 
 	
@@ -1557,8 +1561,6 @@ var EasyAutocomplete = (function(scope) {
 
 })(EasyAutocomplete || {});
 
-(function($) {
-
 	$.fn.easyAutocomplete = function(options) {
 
 		return this.each(function() {
@@ -1620,4 +1622,4 @@ var EasyAutocomplete = (function(scope) {
 		return -1;
 	};
 
-})(jQuery);
+})($ctj);
